@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect - Tela Inicial</title>
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/inicisl.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo"><a href="../../index.html"><img width="130rem" src="../img/logo.png" alt="" srcset=""></a>
+        </div>
+        <nav class="menu">
+            <a href="./academico.html">Avisos</a>
+            <a href="./Inicial.html">Home</a>
+            <a href="./avisos.html"class="active">Acadêmico</a>
+        </nav>
+        <div class="user-settings">
+            <img width="50rem" src="../img/perfil.png" alt="Perfil" class="user-avatar">
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="chat-box">
+          <div class="chat-header">
+            <h2>Assistente Escolar</h2>
+          </div>
+          <div class="chat-content" id="chatContent">
+            <div class="message bot-message">
+              <p>Olá! Como posso te ajudar com as suas questões escolares hoje?</p>
+            </div>
+          </div>
+          <div class="chat-buttons">
+            <button class="question-button" onclick="askQuestion('Qual a minha nota em Matemática?')">Qual a minha nota em Matemática?</button>
+            <button class="question-button" onclick="askQuestion('Quais são minhas próximas provas?')">Quais são minhas próximas provas?</button>
+            <button class="question-button" onclick="askQuestion('Quando começa as minhas férias?')">Quando começam as minhas férias?</button>
+            <button class="question-button" onclick="askQuestion('Como está minha média geral?')">Como está minha média geral?</button>
+            <button class="question-button" onclick="askQuestion('Qual o horário da minha próxima aula?')">Qual o horário da minha próxima aula?</button>
+          </div>
+        </div>
+      </div>
+
+    <script src="../script/chat.js"></script>
+</body>
+
+</html>

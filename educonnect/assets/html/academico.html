@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect - Tela Inicial</title>
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/inicisl.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo"><a href="../../index.html"><img width="130rem" src="../img/logo.png" alt="" srcset=""></a>
+        </div>
+        <nav class="menu">
+            <a href="./academico.html" class="active">Avisos</a>
+            <a href="./Inicial.html">Home</a>
+            <a href="./avisos.html">Acadêmico</a>
+        </nav>
+        <div class="user-settings">
+            <img width="50rem" src="../img/perfil.png" alt="Perfil" class="user-avatar">
+        </div>
+    </header>
+
+    <div class="container">
+      <div class="calendar-container">
+        <div class="calendar-header">
+          <button id="prevMonth">&lt;</button>
+          <h2 id="monthYear"></h2>
+          <button id="nextMonth">&gt;</button>
+        </div>
+        <div class="calendar-grid">
+          <div class="day-label">Dom</div>
+          <div class="day-label">Seg</div>
+          <div class="day-label">Ter</div>
+          <div class="day-label">Qua</div>
+          <div class="day-label">Qui</div>
+          <div class="day-label">Sex</div>
+          <div class="day-label">Sáb</div>
+          <!-- Os dias serão inseridos dinamicamente -->
+        </div>
+      </div>
+    </div>
+
+    <script src="../script/inicial.js"></script>
+</body>
+
+</html>

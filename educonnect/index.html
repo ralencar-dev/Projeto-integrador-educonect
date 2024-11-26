@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect - Tela de Login</title>
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Login Form -->
+        <div id="login-form" class="form">
+            <img style="margin: 1rem;" width="200rem" src="./assets/img/logo.png" alt="" srcset="">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" placeholder="Digite seu usuário" />
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha" />
+            <div style="margin: 1rem;" class="button-group">
+                <a href="./assets/html/Inicial.html"><button id="login-btn">Entrar</button></a>
+                <button id="go-to-cadastro">Registrar</button>
+            </div>
+        </div>
+
+        <!-- Cadastro Form -->
+        <div id="cadastro-form">
+            <img style="margin: 1rem;" width="200rem" src="./assets/img/logo.png" alt="" srcset="">
+            <label for="name">Nome Completo</label>
+            <input type="text" id="name" placeholder="Digite seu nome completo" />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Digite seu email" />
+            <label for="new-password">Senha</label>
+            <input type="password" id="new-password" placeholder="Crie uma senha" />
+            <div class="button-group">
+                <a href="./assets/html/Inicial.html"><button id="signup-btn">Cadastrar</button></a> 
+                <button id="back-to-login">Voltar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/script/script.js"></script>
+
+</body>
+
+</html>
